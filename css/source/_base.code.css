@@ -3,3 +3,17 @@ code {
   margin: 0;
   padding: 0;
 }
+
+
+/* Overflow hack for [pre > code] */
+pre {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+code {
+  display: block;
+  max-width: 100%;
+  overflow: auto;
+}
