@@ -4,8 +4,9 @@ var gulp      = require('gulp'),
     rename    = require('gulp-rename');
 
 gulp.task('webserver', function() {
-  gulp.src('app')
+  gulp.src('./')
     .pipe(webserver({
+      host: '0.0.0.0',
       livereload: true,
       directoryListing: true,
       open: true
@@ -24,3 +25,7 @@ gulp.task('compile-css', function() {
     }))
     .pipe(gulp.dest('css/'));
 });
+
+gulp.task('watch-css', function() {
+  gulp.watch('css/source/*.css', ['compile-css']);
+});  
