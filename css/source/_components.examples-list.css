@@ -1,0 +1,15 @@
+.c-examples-list {
+}
+
+  .c-examples-list > .c-examples-list__item > a {
+    color: var(--color-white);
+    text-decoration: none; 
+    font-weight: 600;
+    font-size: var(--font-nm);
+    text-transform: uppercase;
+  }
+
+  .c-examples-list > .c-examples-list__item.is-active > a {
+    padding-bottom: 3px;
+    border-bottom: 3px solid var(--color-blue);
+  }

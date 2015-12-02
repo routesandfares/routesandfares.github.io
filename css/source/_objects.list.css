@@ -1,0 +1,7 @@
+ul.o-list--naked {
+  list-style-type: none; 
+}
+
+ul.o-list--inline > li {
+  display: inline; 
+}
