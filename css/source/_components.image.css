@@ -1,0 +1,8 @@
+.c-image {
+  
+}
+
+.c-image.c-image--logo {
+  width: auto;
+  height: 2.812em; /* 45 /16 */
+}

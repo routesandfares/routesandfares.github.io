@@ -1,0 +1,7 @@
+.o-container {
+  width: calc(60em - var(--space-lg)); /* 960 /16 */
+  padding: var(--space-lg);
+  
+  margin-left: auto;
+  margin-right: auto;
+}

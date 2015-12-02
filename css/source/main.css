@@ -5,3 +5,13 @@
 @import "_generic.normalize.css";
 
 @import "_base.page.css";
+@import "_base.paragraphs.css";
+
+@import "_objects.container.css";
+
+@import "_components.main-gradient.css";
+@import "_components.image.css";
+
+@import "_trumps.padding.css";
+@import "_trumps.margin.css";
+@import "_trumps.text.css";

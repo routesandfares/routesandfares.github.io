@@ -1,0 +1,7 @@
+.c-main-gradient {
+  background: #3faec9;
+  background: -moz-linear-gradient(left, #3faec9 0%, #775ea1 100%);
+  background: -webkit-linear-gradient(left, #3faec9 0%,#775ea1 100%);
+  background: linear-gradient(to right, #3faec9 0%,#775ea1 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3faec9', endColorstr='#775ea1',GradientType=1 );
+}

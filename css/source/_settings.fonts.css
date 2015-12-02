@@ -6,30 +6,30 @@
 
 @font-face {
   font-family:  'proximanova';
-  src:  url('../fonts/ProximaNova-Regular.eot');
+  src:  url('../fonts/ProximaNova-Regular.otf');
   font-weight:  400;
 }
 
 @font-face {
   font-family:  'proximanova';
-  src:  url('../fonts/ProximaNova-Semibold.eot');
+  src:  url('../fonts/ProximaNova-Semibold.otf');
   font-weight:  600;
 }
 
 @font-face {
   font-family:  'proximanova';
-  src:  url('../fonts/ProximaNova-Bold.eot');
+  src:  url('../fonts/ProximaNova-Bold.otf');
   font-weight:  700;
 }
 
 @font-face {
   font-family:  'proximanova';
-  src:  url('../fonts/ProximaNova-Extrabold.eot');
+  src:  url('../fonts/ProximaNova-Extrabold.otf');
   font-weight:  800;
 }
 
 @font-face {
   font-family:  'proximanova';
-  src:  url('../fonts/ProximaNova-Black.eot');
+  src:  url('../fonts/ProximaNova-Black.otf');
   font-weight:  900;
 }
