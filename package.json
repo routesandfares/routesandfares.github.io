@@ -1,0 +1,22 @@
+{
+  "name": "yepjet-website",
+  "version": "1.0.0",
+  "description": "yepjet official website",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "diegopq",
+  "license": "ISC",
+
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-webserver": "*",
+    "gulp-uglify": "*",
+    "gulp-rename": "*",
+    "gulp-postcss": "*",
+    "postcss-cssnext": "*",
+    "postcss-import": "*",
+    "cssnano": "*"
+  } 
+}
