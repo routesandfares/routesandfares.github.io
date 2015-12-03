@@ -1,10 +1,10 @@
 @import "_settings.fonts.css";
 @import "_settings.sizes.css";
 @import "_settings.colors.css";
+@import "_settings.breakpoints.css";
 
 @import "_generic.normalize.css";
 @import "_generic.prism-lang.css";
-@import "_generic.icomoon.css";
  
 @import "_base.page.css";
 @import "_base.lists.css";

@@ -9,3 +9,11 @@ body {
 *, *:before, *:after {
   box-sizing: border-box;
 }
+
+/* Responsive setup */
+
+@media (--media-lg) {
+
+  html { font-size: 90%; }
+
+}
