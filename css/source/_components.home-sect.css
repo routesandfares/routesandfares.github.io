@@ -1,5 +1,9 @@
-.c-home-sect {
+.c-home-sect:first-of-type {
+  padding-right: var(--space-md);
+}
 
+.c-home-sect:last-of-type {
+  padding-left: var(--space-md);
 }
 
   .c-home-sect .c-home-sect__img {
