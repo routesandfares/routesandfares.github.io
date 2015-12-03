@@ -20,36 +20,36 @@
                 <path d="M185,32 C185,23.4999996 193.5,29.5 193.5,21 C193.5,12.5 185,17.5 185,10.5" id="Path-560" stroke-opacity="0.300000012" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
                 <path d="M180,27.4504559 C180,21.9504557 185.5,25.8328089 185.5,20.3328089 C185.5,14.8328089 180,18.068103 180,13.5386912" id="Path-560" stroke-opacity="0.300000012" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
                 <g id="Group" transform="translate(62.000000, 6.000000)" sketch:type="MSShapeGroup">
-                    <rect id="Rectangle-68" fill="#666E77" x="0" y="0" width="20.982659" height="2.8" rx="5.6"></rect>
-                    <rect id="Rectangle-68" fill="#E15A5A" x="23.7803468" y="0" width="9.09248555" height="2.8" rx="5.6"></rect>
-                    <rect id="Rectangle-68" fill="#84E15A" x="0" y="5.6" width="9.09248555" height="2.8" rx="5.6"></rect>
-                    <rect id="Rectangle-68" fill="#84E15A" x="6.99421965" y="11.2" width="12.5895954" height="2.8" rx="5.6"></rect>
-                    <rect id="Rectangle-68" fill="#666E77" x="11.8901734" y="5.6" width="20.982659" height="2.8" rx="5.6"></rect>
-                    <rect id="Rectangle-68" fill="#666E77" x="22.3815029" y="11.2" width="6.99421965" height="2.8" rx="5.6"></rect>
-                    <rect id="Rectangle-68" fill="#666E77" x="32.1734104" y="11.2" width="6.99421965" height="2.8" rx="5.6"></rect>
-                    <rect id="Rectangle-68" fill="#E15A5A" x="6.99421965" y="16.8" width="9.09248555" height="2.8" rx="5.6"></rect>
-                    <rect id="Rectangle-68" fill="#E15A5A" x="0" y="22.4" width="4.89595376" height="2.8" rx="5.6"></rect>
-                    <rect id="Rectangle-68" fill="#666E77" x="6.99421965" y="22.4" width="32.1734104" height="2.8" rx="5.6"></rect>
-                    <rect id="Rectangle-68" fill="#666E77" x="41.9653179" y="22.4" width="15.3872832" height="2.8" rx="5.6"></rect>
-                    <rect id="Rectangle-68" fill="#666E77" x="41.9653179" y="11.2" width="15.3872832" height="2.8" rx="5.6"></rect>
-                    <rect id="Rectangle-68" fill="#666E77" x="35.6705202" y="5.6" width="11.8901734" height="2.8" rx="5.6"></rect>
-                    <rect id="Rectangle-68" fill="#D6CD5E" x="60.150289" y="11.2" width="12.5895954" height="2.8" rx="5.6"></rect>
-                    <rect id="Rectangle-68" fill="#666E77" x="50.3583815" y="5.6" width="30.7745665" height="2.8" rx="5.6"></rect>
-                    <rect id="Rectangle-68" fill="#D6CD5E" x="18.8843931" y="16.8" width="12.5895954" height="2.8" rx="5.6"></rect>
-                    <rect id="Rectangle-68" fill="#666E77" x="35.6705202" y="0" width="20.982659" height="2.8" rx="5.6"></rect>
-                    <rect id="Rectangle-68" fill="#D6CD5E" x="59.4508671" y="0" width="20.982659" height="2.8" rx="5.6"></rect>
-                    <rect id="Rectangle-68" fill="#84E15A" x="0" y="28" width="16.0867052" height="2.8" rx="5.6"></rect>
-                    <rect id="Rectangle-68" fill="#84E15A" x="6.99421965" y="33.6" width="26.5780347" height="2.8" rx="5.6"></rect>
-                    <rect id="Rectangle-68" fill="#666E77" x="18.8843931" y="28" width="37.0693642" height="2.8" rx="5.6"></rect>
-                    <rect id="Rectangle-68" fill="#E15A5A" x="6.99421965" y="39.2" width="9.09248555" height="2.8" rx="5.6"></rect>
-                    <rect id="Rectangle-68" fill="#E15A5A" x="53.8554913" y="39.2" width="4.89595376" height="2.8" rx="5.6"></rect>
-                    <rect id="Rectangle-68" fill="#666E77" x="61.5491329" y="39.2" width="27.1700001" height="2.8" rx="5.6"></rect>
-                    <rect id="Rectangle-68" fill="#D6CD5E" x="18.8843931" y="39.2" width="12.5895954" height="2.8" rx="5.6"></rect>
-                    <rect id="Rectangle-68" fill="#666E77" x="58.7514451" y="28" width="24.4797688" height="2.8" rx="5.6"></rect>
-                    <rect id="Rectangle-68" fill="#666E77" x="34.2716763" y="39.2" width="6.99421965" height="2.8" rx="5.6"></rect>
-                    <rect id="Rectangle-68" fill="#666E77" x="44.0635838" y="39.2" width="6.99421965" height="2.8" rx="5.6"></rect>
-                    <rect id="Rectangle-68" fill="#D6CD5E" x="60.150289" y="22.4" width="12.5895954" height="2.8" rx="5.6"></rect>
-                    <rect id="Rectangle-68" fill="#666E77" x="75.5375723" y="11.2" width="11.8901734" height="2.8" rx="5.6"></rect>
+                    <rect id="Rectangle-68" fill="#666E77" x="0" y="0" width="20.982659" height="2.8"></rect>
+                    <rect id="Rectangle-68" fill="#E15A5A" x="23.7803468" y="0" width="9.09248555" height="2.8"></rect>
+                    <rect id="Rectangle-68" fill="#84E15A" x="0" y="5.6" width="9.09248555" height="2.8"></rect>
+                    <rect id="Rectangle-68" fill="#84E15A" x="6.99421965" y="11.2" width="12.5895954" height="2.8"></rect>
+                    <rect id="Rectangle-68" fill="#666E77" x="11.8901734" y="5.6" width="20.982659" height="2.8"></rect>
+                    <rect id="Rectangle-68" fill="#666E77" x="22.3815029" y="11.2" width="6.99421965" height="2.8"></rect>
+                    <rect id="Rectangle-68" fill="#666E77" x="32.1734104" y="11.2" width="6.99421965" height="2.8"></rect>
+                    <rect id="Rectangle-68" fill="#E15A5A" x="6.99421965" y="16.8" width="9.09248555" height="2.8"></rect>
+                    <rect id="Rectangle-68" fill="#E15A5A" x="0" y="22.4" width="4.89595376" height="2.8"></rect>
+                    <rect id="Rectangle-68" fill="#666E77" x="6.99421965" y="22.4" width="32.1734104" height="2.8"></rect>
+                    <rect id="Rectangle-68" fill="#666E77" x="41.9653179" y="22.4" width="15.3872832" height="2.8"></rect>
+                    <rect id="Rectangle-68" fill="#666E77" x="41.9653179" y="11.2" width="15.3872832" height="2.8"></rect>
+                    <rect id="Rectangle-68" fill="#666E77" x="35.6705202" y="5.6" width="11.8901734" height="2.8"></rect>
+                    <rect id="Rectangle-68" fill="#D6CD5E" x="60.150289" y="11.2" width="12.5895954" height="2.8"></rect>
+                    <rect id="Rectangle-68" fill="#666E77" x="50.3583815" y="5.6" width="30.7745665" height="2.8"></rect>
+                    <rect id="Rectangle-68" fill="#D6CD5E" x="18.8843931" y="16.8" width="12.5895954" height="2.8"></rect>
+                    <rect id="Rectangle-68" fill="#666E77" x="35.6705202" y="0" width="20.982659" height="2.8"></rect>
+                    <rect id="Rectangle-68" fill="#D6CD5E" x="59.4508671" y="0" width="20.982659" height="2.8"></rect>
+                    <rect id="Rectangle-68" fill="#84E15A" x="0" y="28" width="16.0867052" height="2.8"></rect>
+                    <rect id="Rectangle-68" fill="#84E15A" x="6.99421965" y="33.6" width="26.5780347" height="2.8"></rect>
+                    <rect id="Rectangle-68" fill="#666E77" x="18.8843931" y="28" width="37.0693642" height="2.8"></rect>
+                    <rect id="Rectangle-68" fill="#E15A5A" x="6.99421965" y="39.2" width="9.09248555" height="2.8"></rect>
+                    <rect id="Rectangle-68" fill="#E15A5A" x="53.8554913" y="39.2" width="4.89595376" height="2.8"></rect>
+                    <rect id="Rectangle-68" fill="#666E77" x="61.5491329" y="39.2" width="27.1700001" height="2.8"></rect>
+                    <rect id="Rectangle-68" fill="#D6CD5E" x="18.8843931" y="39.2" width="12.5895954" height="2.8"></rect>
+                    <rect id="Rectangle-68" fill="#666E77" x="58.7514451" y="28" width="24.4797688" height="2.8"></rect>
+                    <rect id="Rectangle-68" fill="#666E77" x="34.2716763" y="39.2" width="6.99421965" height="2.8"></rect>
+                    <rect id="Rectangle-68" fill="#666E77" x="44.0635838" y="39.2" width="6.99421965" height="2.8"></rect>
+                    <rect id="Rectangle-68" fill="#D6CD5E" x="60.150289" y="22.4" width="12.5895954" height="2.8"></rect>
+                    <rect id="Rectangle-68" fill="#666E77" x="75.5375723" y="11.2" width="11.8901734" height="2.8"></rect>
                 </g>
                 <rect id="Rectangle-406" fill="#4990E2" sketch:type="MSShapeGroup" x="0.011609145" y="35" width="39" height="35" rx="1"></rect>
                 <rect id="Rectangle-407" fill-opacity="0.200000003" fill="#FFFFFF" sketch:type="MSShapeGroup" x="17" y="35" width="5" height="35"></rect>
