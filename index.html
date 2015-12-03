@@ -27,7 +27,8 @@ curl -X POST \
             { 
               "from": "LHR",
               "to"  : "JFK",
-              "departure" : "2016-01-01"
+              "departure" : "2016-01-01",
+              "passengers": [{ "category": "ADT "}]
             }
           ]
         }' \
@@ -50,17 +51,29 @@ curl -X POST \
 
       <section class="c-home-sect u-float-left u-txa-center u-width-h">
         <img class="c-home-sect__image" src="img/ico1.svg" alt="ico1">
-        <h1 class="c-home-sect__head">Simple REST API</h1>
-        <p class="c-home-sect__text">YepJet allows developers to search and manage flights, without dealing with the complexity of airline industry.</p>
+        <h1 class="c-home-sect__head u-mt-nm">Simple REST API</h1>
+        <p class="c-home-sect__text u-mt-sm">YepJet allows developers to search and manage flights, without dealing with the complexity of airline industry.</p>
       </section>
 
       <section class="c-home-sect u-float-left u-txa-center u-width-h">
         <img class="c-home-sect__image" src="img/ico2.svg" alt="ico1">
-        <h1 class="c-home-sect__head">Transparent pricing</h1>
-        <p class="c-home-sect__text">No upfront of setup fees. Just pay for what you use.<br>Easy, just like it should be.</p>
+        <h1 class="c-home-sect__head u-mt-nm">Transparent pricing</h1>
+        <p class="c-home-sect__text u-mt-sm">No upfront of setup fees. Just pay for what you use.<br>Easy, just like it should be.</p>
       </section>
 
       <div class="u-clear-b"></div>
+
+    </div>
+  </div>
+
+  <div class="u-bgc-grey0">
+    <div class="o-container u-pt-xl u-pb-xl u-txa-center">
+      
+      <section class="c-home-sect u-txa-center">
+        <img class="c-home-sect__image" src="img/ico3.svg" alt="ico1">
+        <h1 class="c-home-sect__head c-home-sect__head--bold u-mt-nm">Cut through the red tape</h1>
+        <p class="c-home-sect__text u-mt-sm">Start building your own travel application instantly.<br>No need to be a registered travel agent, just focus on code.</p>
+      </section>
 
     </div>
   </div>

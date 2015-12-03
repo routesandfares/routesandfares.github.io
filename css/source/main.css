@@ -10,6 +10,7 @@
 @import "_base.lists.css";
 @import "_base.paragraphs.css";
 @import "_base.code.css";
+@import "_base.headings.css";
 
 @import "_objects.container.css";
 @import "_objects.list.css";
@@ -27,3 +28,4 @@
 @import "_trumps.sizes.css";
 @import "_trumps.float.css";
 @import "_trumps.clear.css";
+@import "_trumps.background.css";
