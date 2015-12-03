@@ -1,0 +1,22 @@
+.o-table {
+  display: table;
+  table-layout: fixed;
+}
+
+  .o-table > .o-table__row {
+    display: table-row;
+  }
+
+  /* This can be nested even into .o-table__row */
+  .o-table .o-table__cell {
+    display: table-cell;
+    vertical-align: top;
+  }
+
+  .o-table .o-table__cell--gutter1:first-of-type {
+    padding-right: var(--space-lg);
+  }
+
+  .o-table .o-table__cell--gutter1:last-of-type {
+    padding-left: var(--space-lg);
+  }

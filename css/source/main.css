@@ -13,12 +13,17 @@
 
 @import "_objects.container.css";
 @import "_objects.list.css";
+@import "_objects.table.css";
 
 @import "_components.main-gradient.css";
 @import "_components.image.css";
 @import "_components.code-box.css"; 
 @import "_components.examples-list.css"; 
+@import "_components.home-sect.css"; 
 
 @import "_trumps.padding.css";
 @import "_trumps.margin.css";
 @import "_trumps.text.css";
+@import "_trumps.sizes.css";
+@import "_trumps.float.css";
+@import "_trumps.clear.css";
