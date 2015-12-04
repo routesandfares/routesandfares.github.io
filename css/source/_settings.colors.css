@@ -5,8 +5,8 @@
 
   
   --color-greyscale-0: #f5f7f9; /* Used for backgrounds */
-  --color-greyscale-1: #a5a5a5; /* Used for paragraphs */
-  --color-greyscale-2: #D0D7DF; /* Used for inputs */
+  --color-greyscale-1: #D0D7DF; /* Used for inputs */
+  --color-greyscale-2: #a5a5a5; /* Used for paragraphs */
   --color-greyscale-3: #33393f; /* Used for backgrounds (like black) */
 
   --color-blue:    #4a90e2; /* Main color? */
