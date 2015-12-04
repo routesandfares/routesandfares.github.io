@@ -24,19 +24,17 @@ mixpanel.init("eda12707ac21a546ec9b06f61ddead51");</script><!-- end Mixpanel -->
       <div class="c-code-box u-txa-left u-mt-md">
         <div class="c-code-box__code u-p-nm">
           <pre><code class="language-bash"># Search a flight from London Heathrow to New York JFK on January, the 1st
-curl -X POST \
-    -H 'Content-Type: application/json' \
-    -d '{
-          "flights": [
-            { 
+curl  -X POST \
+      -H 'Content-Type: application/json' \
+      -d '{
+            "flights": [{ 
               "from": "LHR",
               "to"  : "JFK",
               "departure" : "2016-01-01",
               "passengers": [{ "category": "ADT "}]
-            }
-          ]
-        }' \
-    https://sandbox.yepjet.com/v1/search</code></pre>
+            }]
+          }' \
+      https://sandbox.yepjet.com/v1/search</code></pre>
         </div>
         <div class="c-code-box__menu u-p-nm u-txc-white">
           <ul class="o-list--naked c-examples-list">
