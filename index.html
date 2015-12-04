@@ -27,12 +27,12 @@ mixpanel.init("eda12707ac21a546ec9b06f61ddead51");</script><!-- end Mixpanel -->
 curl -X POST \
      -H 'Content-Type: application/json' \
      -d '{
+           "passengers": [{ "category": "ADT "}],
            "flights": [
              { 
                "from": "LHR",
                "to"  : "JFK",
-               "departure" : "2016-01-01",
-               "passengers": [{ "category": "ADT "}]
+               "departure" : "2016-01-01"
              }
             ]
           }' \
