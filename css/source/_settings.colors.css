@@ -9,7 +9,8 @@
   --color-greyscale-2: #a5a5a5; /* Used for paragraphs */
   --color-greyscale-3: #33393f; /* Used for backgrounds (like black) */
 
-  --color-blue:    #4a90e2; /* Main color? */
-  --color-purple:  #282636; 
+  --color-blue:     #4a90e2; /* Main color? */
+  --color-purple:   #282636; 
+  --color-red:      #D74444;
 
 }

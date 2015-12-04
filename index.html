@@ -110,8 +110,12 @@ curl -X POST \
       </div>
 
       <div class="u-mt-md">
-        <input class="c-input u-mr-xs" type="text" placeholder="Your email...">
-        <button class="c-btn c-btn--primary">Sign me</button>
+        <input class="c-input u-mr-xs js-signup-email" type="text" placeholder="Your email...">
+        <button class="c-btn c-btn--primary js-signup-submit">Sign me</button>
+
+        <div class="u-mt-sm u-display-n js-signup-error">
+          <p class="u-txc-red u-txs-sm">Something went wrong, retry in a few minutes.</p>
+        </div>
       </div>
 
       <div class="u-mt-xl">
@@ -130,6 +134,11 @@ curl -X POST \
   </footer>
  
   <script src="js/prism.js"></script>
+
+  <script>
+    
+  </script>
+
   <!-- <script>mixpanel.track('page view')</script> -->
 </body>
 </html>
