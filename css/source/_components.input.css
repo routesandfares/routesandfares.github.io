@@ -8,3 +8,7 @@
   color: var(--color-black);
   font-size: var(--font-nm);
 }
+
+.c-input::placeholder {
+  color: color( var(--color-black) alpha(-40%) );
+}
