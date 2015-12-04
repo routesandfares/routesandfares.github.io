@@ -136,7 +136,25 @@ curl -X POST \
   <script src="js/prism.js"></script>
 
   <script>
-    
+  var btn = document.querySelector('.js-signup-submit');
+  var eml = document.querySelector('.js-signup-email');
+
+  btn.addEventListener('click', function() {
+    var request = new XMLHttpRequest();
+    var params  = 'email=' + eml.value;
+
+    request.open('POST', '/add_emails', true);
+    request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+
+    request.onload = function() {
+      if(request.status == 200)
+        window.location = '/survey/index.html';
+      else
+        document.querySelector('.js-signup-error').style.display = 'block';
+    };
+
+    request.send(params);
+  });
   </script>
 
   <!-- <script>mixpanel.track('page view')</script> -->
