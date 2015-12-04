@@ -2,6 +2,10 @@
 }
 
   .c-examples-list > .c-examples-list__item > a {
+    display: block;
+    padding: var(--space-sm);
+    border-bottom: 1px solid color( var(--color-purple) alpha(-50%) );
+
     color: var(--color-white);
     text-decoration: none; 
     font-weight: 600;
@@ -9,7 +13,11 @@
     text-transform: uppercase;
   }
 
-  .c-examples-list > .c-examples-list__item.is-active > a {
-    padding-bottom: 3px;
-    border-bottom: 3px solid var(--color-blue);
+  .c-examples-list > .c-examples-list__item:first-child > a {
+    border-top-right-radius: 5px;
+  }
+
+  .c-examples-list > .c-examples-list__item.active > a {
+    border: 0;
+    background-color: var(--color-purple);
   }

@@ -5,6 +5,7 @@
 
 @import "_generic.normalize.css";
 @import "_generic.prism-lang.css";
+@import "_generic.tabby.css";
  
 @import "_base.page.css";
 @import "_base.lists.css";
