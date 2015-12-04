@@ -2,7 +2,10 @@
 .u-txa-left   { text-align: left; }
 
 .u-txc-white { color: var(--color-white); }
+.u-txc-grey  { color: var(--color-greyscale-1); }
 
 .u-txs-nm { font-size: var(--font-nm); }
 .u-txs-md { font-size: var(--font-md); }
 .u-txs-lg { font-size: var(--font-lg); }
+
+.u-txw-600  { font-weight: 600; }

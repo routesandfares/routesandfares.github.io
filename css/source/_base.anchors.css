@@ -1,0 +1,11 @@
+:any-link {
+  color: var(--color-blue);
+ 
+  transition: all ease-in-out .2s;
+}
+
+:any-link:hover,
+:any-link:active,
+:any-link:focus {
+  color: color( var(--color-blue) shade(40%) );
+}

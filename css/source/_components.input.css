@@ -1,0 +1,10 @@
+.c-input {
+  border: 0; 
+  border-radius: 5px;
+  padding: var(--space-sm);
+
+  background-color: var(--color-greyscale-2);
+  
+  color: var(--color-black);
+  font-size: var(--font-nm);
+}

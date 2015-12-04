@@ -11,6 +11,8 @@
 @import "_base.paragraphs.css";
 @import "_base.code.css";
 @import "_base.headings.css";
+@import "_base.inputs.css";
+@import "_base.anchors.css";
 
 @import "_objects.container.css";
 @import "_objects.list.css";
@@ -21,6 +23,8 @@
 @import "_components.code-box.css"; 
 @import "_components.examples-list.css"; 
 @import "_components.home-sect.css"; 
+@import "_components.btn.css"; 
+@import "_components.input.css"; 
 
 @import "_trumps.padding.css";
 @import "_trumps.margin.css";
