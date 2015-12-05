@@ -10,3 +10,5 @@
 .u-txs-lg { font-size: var(--font-lg); }
 
 .u-txw-600  { font-weight: 600; }
+
+.u-txlh-0 { line-height: 0 !important; } /* Firefox fix for <pre> */
