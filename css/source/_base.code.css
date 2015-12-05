@@ -16,4 +16,7 @@ code {
   display: block;
   max-width: 100%;
   overflow: auto;
+
+  /* We want the code to wrap */
+  white-space: pre-wrap;
 }

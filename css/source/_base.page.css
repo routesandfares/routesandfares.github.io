@@ -12,6 +12,10 @@ body {
 
 /* Responsive setup */
 
-@media (--media-lg) {
+@media (--media-sm) {
+  
+  html {
+    font-size: 85%;
+  }
 
 }

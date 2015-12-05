@@ -9,6 +9,8 @@
     flex-shrink: 1;
     flex-basis: 100%;
 
+    order: 1;
+
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 
@@ -20,8 +22,32 @@
     flex-shrink: 0;
     flex-basis: auto;
 
+    order: 2;
+
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 
     background-color: color( var(--color-purple) alpha(-20%) );
   }
+
+/* Responsive setup */
+
+@media (--media-sm) {
+
+ .c-code-box {
+    display: block;
+ } 
+
+  .c-code-box > .c-code-box__menu {
+    border-radius: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  .c-code-box > .c-code-box__code {
+    border-radius: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+}

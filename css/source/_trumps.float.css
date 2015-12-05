@@ -1,2 +1,10 @@
 .u-float-left   { float: left; }
 .u-float-right  { float: right; }
+
+/* Responsive setup */
+
+@media (--media-sm) {
+
+  .u-float-n\@sm { float: none; }
+
+}

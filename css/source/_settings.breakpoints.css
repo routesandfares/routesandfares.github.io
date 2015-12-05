@@ -1,1 +1,2 @@
-@custom-media --media-lg (max-width: 90rem); /* 1440 /16 */
+@custom-media --media-lg (max-width: 90.00rem); /* 1440 /16 */
+@custom-media --media-sm (max-width: 51.25rem); /* 820 /16 */

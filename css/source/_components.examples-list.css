@@ -22,3 +22,13 @@
     box-shadow: none;
     background-color: var(--color-purple);
   }
+
+/* Responsive setup */
+
+@media (--media-sm) {
+
+  .c-examples-list > .c-examples-list__item:first-child > a {
+    border-top-left-radius: 5px;
+  }
+
+}

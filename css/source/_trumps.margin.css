@@ -9,3 +9,12 @@
 
 .u-mr-xs { margin-right: var(--space-xs); }
 .u-ml-xs { margin-left: var(--space-xs); }
+
+/* Responsive setup */
+
+@media (--media-sm) {
+
+  .u-mt-xs\@sm { margin-top: var(--space-xs); }
+  .u-mt-lg\@sm { margin-top: var(--space-lg); }
+
+}

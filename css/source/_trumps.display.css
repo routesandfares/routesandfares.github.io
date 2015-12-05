@@ -1,1 +1,10 @@
 .u-display-n { display: none; }
+
+/* Responsive setup */
+
+@media (--media-sm) {
+  
+  .u-display-n\@sm { display: none; }
+  .u-display-b\@sm { display: block; }
+
+}

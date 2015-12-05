@@ -5,3 +5,14 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+/* Responsive setup */
+
+@media (--media-sm) {
+
+  .o-container {
+    max-width: calc(75em - var(--space-sm));
+    padding: var(--space-sm);
+  }
+
+}

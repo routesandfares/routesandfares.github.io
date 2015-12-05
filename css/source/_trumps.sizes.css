@@ -1,2 +1,10 @@
 .u-width-f { width: 100%; }
 .u-width-h { width: 50%; }
+
+/* Responsive setup */
+
+@media (--media-sm) {
+
+  .u-width-f\@sm { width: 100%; }
+
+}

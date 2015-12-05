@@ -5,3 +5,15 @@
 
 .u-pt-xl  { padding-top: var(--space-xl); }
 .u-pb-xl  { padding-bottom: var(--space-xl); }
+
+.u-pl-md { padding-left: var(--space-md); }
+.u-pr-md { padding-right: var(--space-md); }
+
+/* Responsive setup */
+
+@media (--media-sm) {
+
+  .u-pl-n\@sm { padding-left: 0px; }
+  .u-pr-n\@sm { padding-right: 0px; }
+
+}
