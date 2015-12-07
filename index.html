@@ -129,7 +129,7 @@ curl -X POST \
 
       <div class="u-mt-md">
         <input class="c-input u-mr-xs js-signup-email u-display-b@sm u-width-f@sm" type="text" placeholder="Your email...">
-        <button class="c-btn c-btn--primary js-signup-submit u-display-b@sm u-width-f@sm u-mt-xs@sm">Sign me</button>
+        <button class="c-btn c-btn--primary js-signup-submit u-display-b@sm u-width-f@sm u-mt-xs@sm" disabled="true">Sign me</button>
 
         <div class="u-mt-sm u-display-n js-signup-error">
           <p class="u-txc-red u-txs-sm">Something went wrong, retry in a few minutes.</p>
@@ -159,10 +159,28 @@ curl -X POST \
   tabby.init();
 
   // Signup
+  var EMAIL_REGEXP = /^[a-z0-9!#$%&'*+\/=?^_`{|}~.-]+@[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)*$/i;
   var btn = document.querySelector('.js-signup-submit');
   var eml = document.querySelector('.js-signup-email');
 
+  function isValidEmail() {
+    return EMAIL_REGEXP.test(eml.value.trim());
+  }
+
+  eml.addEventListener('keydown', function() {
+    if (isValidEmail()) {
+      btn.removeAttribute('disabled');
+      return;
+    }
+
+    btn.setAttribute('disabled', 'true');
+  });
+
   btn.addEventListener('click', function() {
+    if (!isValidEmail()) {
+      return;
+    }
+
     var request = new XMLHttpRequest();
     var params  = 'email=' + eml.value;
 
@@ -180,6 +198,5 @@ curl -X POST \
   });
   </script>
 
-  <!-- <script>mixpanel.track('page view')</script> -->
 </body>
 </html>
