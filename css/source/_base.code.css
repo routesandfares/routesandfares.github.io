@@ -21,6 +21,10 @@ code {
   white-space: pre-wrap;
 }
 
+code .token.string {
+  color: var(--color-olive);
+}
+
 /* Responsive setup */
 
 @media (--media-sm) {
