@@ -156,7 +156,6 @@ curl -X POST \
   <script src="js/tabby.min.js"></script>
 
   <script>
-  mixpanel.track('page view');
   // Tabby
   tabby.init();
 
@@ -165,12 +164,12 @@ curl -X POST \
   var btn = document.querySelector('.js-signup-submit');
   var eml = document.querySelector('.js-signup-email');
 
-  function isValidEmail() {
-    return EMAIL_REGEXP.test(eml.value.trim());
+  function isValidEmail(email) {
+    return EMAIL_REGEXP.test(email);
   }
 
   eml.addEventListener('keydown', function() {
-    if (isValidEmail()) {
+    if (isValidEmail(eml.value.trim())) {
       btn.removeAttribute('disabled');
       return;
     }
@@ -179,16 +178,18 @@ curl -X POST \
   });
 
   btn.addEventListener('click', function() {
-    if (!isValidEmail()) {
+    var email = eml.value.trim();
+
+    if (!isValidEmail(email)) {
       return;
     }
 
-    // mixpanel.track('Sign ups', {
-
-    // });
+    mixpanel.track('Sign ups', {
+      email: email
+    });
 
     var request = new XMLHttpRequest();
-    var params  = 'email=' + eml.value.trim();
+    var params  = 'email=' + email; 
 
     request.open('POST', 'utils.yepjet.com/add-email', true);
     request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
