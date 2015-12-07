@@ -166,11 +166,11 @@ curl -X POST \
     var request = new XMLHttpRequest();
     var params  = 'email=' + eml.value;
 
-    request.open('POST', '/add_emails', true);
+    request.open('POST', 'utils.yepjet.com/add-email', true);
     request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 
     request.onload = function() {
-      if(request.status == 200)
+      if(request.status == 201)
         window.location = '/survey/index.html';
       else
         document.querySelector('.js-signup-error').style.display = 'block';
