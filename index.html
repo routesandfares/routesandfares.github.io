@@ -71,7 +71,9 @@ curl -X POST \
      -H 'Content-Type: application/json' \
      -d '{
            "order_id": "fb59f76b-cc64-4a52-b91e-6029298ee10f",
-           "travelers": [{ "id": "11efaf6f-ae0a-478e-bd64-6c974d5a3f14" }],
+           "travelers": [{
+             "id": "11efaf6f-ae0a-478e-bd64-6c974d5a3f14"
+           }],
            "payment_token": "0e7fbee2-51be-4b58-a797-f4fcd0a14621"
          }' \
      https://sandbox.yepjet.com/v1/bookings
