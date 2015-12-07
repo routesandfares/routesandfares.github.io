@@ -178,6 +178,10 @@ curl -X POST \
     }
   });
 
+  var tabID = '#code-' + location.hash.substring(1);
+  var toggle = document.querySelector('[data-tab="' + tabID + '"]');
+  tabby.toggleTab(toggle, tabID);
+
   // Signup
   var EMAIL_REGEXP = /^[a-z0-9!#$%&'*+\/=?^_`{|}~.-]+@[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)*$/i;
   var btn = document.querySelector('.js-signup-submit');
