@@ -172,7 +172,11 @@ curl -X POST \
 
   <script>
   // Tabby
-  tabby.init();
+  tabby.init({
+    callback: function(toggle, tabID) {
+      window.location.hash = tabID.split('-')[1];
+    }
+  });
 
   // Signup
   var EMAIL_REGEXP = /^[a-z0-9!#$%&'*+\/=?^_`{|}~.-]+@[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)*$/i;
