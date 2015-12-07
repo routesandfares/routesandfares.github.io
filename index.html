@@ -157,6 +157,10 @@ curl -X POST \
   <script src="js/tabby.min.js"></script>
 
   <script>
+    mixpanel.track("Video played", {
+      "Video length": 213,
+      "id": "hY7gQr0"
+    });
   // Tabby
   tabby.init();
 
@@ -183,8 +187,12 @@ curl -X POST \
       return;
     }
 
+    // mixpanel.track('Sign ups', {
+
+    // });
+
     var request = new XMLHttpRequest();
-    var params  = 'email=' + eml.value;
+    var params  = 'email=' + eml.value.trim();
 
     request.open('POST', 'utils.yepjet.com/add-email', true);
     request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
