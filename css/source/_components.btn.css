@@ -12,12 +12,16 @@
   transition: all ease-in-out .2s;
 }
 
+.c-btn:disabled {
+  opacity: .7;
+}
+
 .c-btn--primary {
   background-color: var(--color-blue);
 }
 
-.c-btn--primary:hover,
-.c-btn--primary:active,
-.c-btn--primary:focus {
+.c-btn--primary:hover:not(:disabled),
+.c-btn--primary:active:not(:disabled),
+.c-btn--primary:focus:not(:disabled) {
   background-color: color( var(--color-blue) shade(20%) );
 }
