@@ -10,7 +10,7 @@
   --color-greyscale-3: #33393f; /* Used for backgrounds (like black) */
 
   --color-blue:     #4a90e2; /* Main color? */
-  --color-olive:    #96b38a;
+  --color-olive:    #96b38a; /* Used for console strings */
   --color-purple:   #282636; 
   --color-red:      #D74444;
 
