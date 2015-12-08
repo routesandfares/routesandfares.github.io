@@ -54,7 +54,7 @@
       .c-code-box__content__code code { height: 100%; }
 
       .c-console-s:before {
-        content: '$';
+        content: '$ ';
         color: #708090;
       }
 
