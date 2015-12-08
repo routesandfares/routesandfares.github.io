@@ -27,6 +27,7 @@
 @import "_components.home-sect.css"; 
 @import "_components.btn.css"; 
 @import "_components.input.css"; 
+@import "_components.main-title.css"; 
 
 @import "_trumps.padding.css";
 @import "_trumps.margin.css";

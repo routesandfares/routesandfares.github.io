@@ -1,0 +1,21 @@
+.c-main-title {
+  color: var(--color-white);
+}
+
+    .c-main-title >
+    .c-main-title__main >
+    p {
+      font-weight: 700;
+      font-size: 1.6em;
+    }
+
+  .c-main-title >
+  .c-main-title__sub {
+    margin-top: calc( var(--space-xs) * 1.5 );
+  }
+
+    .c-main-title >
+    .c-main-title__sub >
+    p {
+      font-size: 1.2em;
+    }
