@@ -252,7 +252,7 @@ mixpanel.init("eda12707ac21a546ec9b06f61ddead51");</script><!-- end Mixpanel -->
 
     request.onload = function() {
       if(request.status == 201)
-        window.location = '/survey';
+        window.location = '/survey?email=' + email;
       else
         document.querySelector('.js-signup-error').style.display = 'block';
     };
