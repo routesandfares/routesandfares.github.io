@@ -33,8 +33,8 @@ gulp.task('compile-js', function() {
     './js/prism.js',
 
     './js/signup.js',
-    './js/console-tabs.js'
-    //'./js/happyScroll.js'  /* Put this under console-tabs.js */
+    './js/console-tabs.js',
+    './js/happyScroll.js'  /* Put this under console-tabs.js */
   ])
     .pipe(concat('scripts.min.js'))
     .pipe(uglify())
