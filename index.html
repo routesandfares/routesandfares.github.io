@@ -41,7 +41,7 @@ mixpanel.init("eda12707ac21a546ec9b06f61ddead51");</script><!-- end Mixpanel -->
         <div class="c-code-box__code u-p-nm">
           <pre class="u-txlh-0">
             <!-- Search -->
-            <code class="tabs-pane active language-bash" id="code-search"># Search a flight from London Heathrow to New York JFK on January 1st
+            <code class="tabs-pane active language-bash" id="code-search"># Try it yourself! Search a flight from London to New York
 curl -X POST \
      -H 'Content-Type: application/json' \
      -d '{
@@ -55,7 +55,7 @@ curl -X POST \
      https://sandbox.yepjet.com/v1/search</code>
           
             <!-- Create an order -->
-            <code id="code-order" class="tabs-pane language-bash"># Create an order for a given flight 
+            <code id="code-order" class="tabs-pane language-bash"># Now, let's create an order using a flight ID 
 curl -X POST \
      -H 'Content-Type: application/json' \
      -d '{
@@ -66,7 +66,7 @@ curl -X POST \
      https://sandbox.yepjet.com/v1/orders
             </code>
             <!-- Book -->
-            <code id="code-book" class="tabs-pane language-bash"># Finalize the booking!
+            <code id="code-book" class="tabs-pane language-bash"># Finalize the booking! Enjoy your flight.
 curl -X POST \
      -H 'Content-Type: application/json' \
      -d '{
