@@ -101,7 +101,7 @@ mixpanel.init("eda12707ac21a546ec9b06f61ddead51");</script><!-- end Mixpanel -->
     </div>
   </header>
 
-  <div>
+  <div class="u-visibility-n js-section">
     <div class="o-container u-pt-xl u-pb-xl u-txa-center">
 
       <section class="c-home-sect u-pr-md u-float-left u-txa-center u-width-h u-float-n@sm u-width-f@sm u-pr-n@sm">
@@ -121,7 +121,7 @@ mixpanel.init("eda12707ac21a546ec9b06f61ddead51");</script><!-- end Mixpanel -->
     </div>
   </div>
 
-  <div class="u-bgc-grey3">
+  <div class="u-bgc-grey3 u-visibility-n js-section">
     <div class="o-container u-pt-xl u-pb-xl u-txa-center">
       
       <section class="c-home-sect u-txa-center">
@@ -133,7 +133,7 @@ mixpanel.init("eda12707ac21a546ec9b06f61ddead51");</script><!-- end Mixpanel -->
     </div>
   </div>
 
-  <div class="u-bgc-grey0">
+  <div class="u-bgc-grey0 u-visibility-n js-section">
     <div class="o-container u-pt-xl u-pb-xl u-txa-center">
 
       <section class="c-home-sect u-pr-md u-float-left u-txa-center u-width-h u-float-n@sm u-width-f@sm u-pr-n@sm">
@@ -153,7 +153,7 @@ mixpanel.init("eda12707ac21a546ec9b06f61ddead51");</script><!-- end Mixpanel -->
     </div>
   </div>
 
-  <footer class="u-bgc-white">
+  <footer class="u-bgc-white u-visibility-n js-section">
     <div class="o-container u-pt-xl u-pb-xl u-txa-center">
 
       <img src="img/logo-grey.svg" alt="logo" class="c-image c-image--logo">
@@ -212,6 +212,60 @@ mixpanel.init("eda12707ac21a546ec9b06f61ddead51");</script><!-- end Mixpanel -->
     mixpanel.track('Pageview', {
       'From hash': false
     });
+  }
+
+  // Happy scroll
+  var sections = [];
+
+  [].forEach.call(document.querySelectorAll('.js-section'), function(element, i) {
+    // Calculating the element's distance from top
+    var offsetTop = 0;
+    var nEl = element;
+    while(nEl != null) {
+      offsetTop += nEl.offsetTop;
+      nEl = nEl.offsetParent;
+    }
+
+    element.style.transition = 'all ease 1s';
+
+    sections.push({
+      node: element,
+      top: offsetTop
+    });
+  });
+
+  var happyScrollEvent = function() {
+    var currentPos = (document.body.scrollTop || document.documentElement.scrollTop) + (window.innerHeight / 2);
+    console.dir(window.innerHeight);
+
+    sections.forEach(function(el, i) {
+      if(hasClass(el.node, 'js-section-visible'))
+        return;
+
+      if(currentPos < el.top)
+        return;
+
+      el.node.style.opacity = 1;
+      el.node.style.visibility = 'visible';
+      addClass(el.node, 'js-section-visible');
+    });
+  };
+  
+  happyScrollEvent();
+  window.onscroll = happyScrollEvent;
+  
+  function hasClass(el, className) {
+    if (el.classList)
+      el.classList.contains(className);
+    else
+      new RegExp('(^| )' + className + '( |$)', 'gi').test(el.className);
+  }
+
+  function addClass(el, className) {
+    if (el.classList)
+      el.classList.add(className);
+    else
+      el.className += ' ' + className;
   }
 
   // Signup
