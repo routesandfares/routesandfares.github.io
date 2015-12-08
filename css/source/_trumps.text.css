@@ -1,14 +1,16 @@
 .u-txa-center { text-align: center; }
 .u-txa-left   { text-align: left; }
 
-.u-txc-white { color: var(--color-white); }
-.u-txc-red { color: var(--color-red); }
-.u-txc-grey  { color: var(--color-greyscale-2); }
+.u-txc-white  { color: var(--color-white); }
+.u-txc-red    { color: var(--color-red); }
+.u-txc-grey   { color: var(--color-greyscale-2); }
 
 .u-txs-nm { font-size: var(--font-nm); }
 .u-txs-md { font-size: var(--font-md); }
 .u-txs-lg { font-size: var(--font-lg); }
+.u-txs-xl { font-size: var(--font-xl); }
 
 .u-txw-600  { font-weight: 600; }
+.u-txw-700  { font-weight: 700; }
 
 .u-txlh-0 { line-height: 0 !important; } /* Firefox fix for <pre> */

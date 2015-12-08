@@ -10,7 +10,7 @@
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 
-    background-color: color( var(--color-purple) shade(15%) );
+    background-color: color( var(--color-purple) shade(40%) );
   }
 
     .c-code-box > 
@@ -22,7 +22,8 @@
       border-radius: 180px;
       margin-right: .3em;
       
-      border: 1px solid color( var(--color-white) alpha(10%) );
+      background-color: var(--color-purple); 
+      /*border: 1px solid color( var(--color-white) alpha(15%) ); */
     }
 
   .c-code-box > 
