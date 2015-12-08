@@ -150,7 +150,7 @@ curl -X POST \
         <button class="c-btn c-btn--primary js-signup-submit u-display-b@sm u-width-f@sm u-mt-xs@sm" disabled="true">Sign me</button>
 
         <div class="u-mt-sm u-display-n js-signup-error">
-          <p class="u-txc-red u-txs-sm">Something went wrong, retry in a few minutes.</p>
+          <p class="u-txc-red u-txs-sm">Whoops, something went wrong.<br>You can contact us at the email address below!</p>
         </div>
       </div>
 
@@ -230,7 +230,7 @@ curl -X POST \
     var request = new XMLHttpRequest();
     var params  = 'email=' + email; 
 
-    request.open('POST', 'utils.yepjet.com/add-email', true);
+    request.open('POST', '//utils.yepjet.com/add-email', true);
     request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 
     request.onload = function() {
