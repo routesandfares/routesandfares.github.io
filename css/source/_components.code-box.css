@@ -53,6 +53,11 @@
       .c-code-box__content__code pre { min-height: var(--code-height); }
       .c-code-box__content__code code { height: 100%; }
 
+      .c-console-s:before {
+        content: '$';
+        opacity: .5;
+      }
+
     .c-code-box > 
     .c-code-box__content >
     .c-code-box__content__menu {
