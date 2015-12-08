@@ -1,3 +1,4 @@
+.u-p-sm   { padding: var(--space-sm); }
 .u-p-nm   { padding: var(--space-nm); }
 
 .u-pt-lg  { padding-top: var(--space-lg); }
