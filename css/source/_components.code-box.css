@@ -1,50 +1,90 @@
 .c-code-box {
-  display: flex;
-  flex-diretion: row;
-  flex-wrap: nowrap;
+  
 }
 
-  .c-code-box > .c-code-box__code {
-    flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: 100%;
-
-    order: 1;
-
+  .c-code-box >
+  .c-code-box__header {
+    width: 100%;
+    padding: var(--space-sm);
+    
     border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-
-    background-color: var(--color-purple);
-  }
-
-  .c-code-box > .c-code-box__menu {
-    flex-grow: 0;
-    flex-shrink: 0;
-    flex-basis: auto;
-
-    order: 2;
-
     border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
 
-    background-color: color( var(--color-purple) alpha(-20%) );
+    background-color: color( var(--color-purple) shade(15%) );
   }
+
+    .c-code-box > 
+    .c-code-box__header
+    li {
+      display: inline-block;
+      width: .8em;
+      height: .8em;
+      border-radius: 180px;
+      margin-right: .3em;
+      
+      border: 1px solid color( var(--color-white) alpha(10%) );
+    }
+
+  .c-code-box > 
+  .c-code-box__content {
+    display: flex;
+    flex-diretion: row;
+    flex-wrap: nowrap;
+  }
+    
+    .c-code-box > 
+    .c-code-box__content > 
+    .c-code-box__content__code {
+      flex-grow: 0;
+      flex-shrink: 1;
+      flex-basis: 100%;
+
+      order: 1;
+
+      border-bottom-left-radius: 5px;
+
+      background-color: var(--color-purple);
+    }
+
+    .c-code-box > 
+    .c-code-box__content >
+    .c-code-box__content__menu {
+      flex-grow: 0;
+      flex-shrink: 0;
+      flex-basis: auto;
+
+      order: 2;
+
+      border-bottom-right-radius: 5px;
+
+      background-color: color( var(--color-purple) alpha(-20%) );
+    }
 
 /* Responsive setup */
 
 @media (--media-sm) {
 
- .c-code-box {
-    display: block;
- } 
+  .c-code-box >
+  .c-code-box__header {
+    display: none; 
+  }
 
-  .c-code-box > .c-code-box__menu {
+  .c-code-box >
+  .c-code-box__content {
+    display: block;
+  } 
+
+  .c-code-box > 
+  .c-code-box__content >
+  .c-code-box__content__menu {
     border-radius: 0px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
   }
 
-  .c-code-box > .c-code-box__code {
+  .c-code-box > 
+  .c-code-box__content >
+  .c-code-box__content__code {
     border-radius: 0px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;

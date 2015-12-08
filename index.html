@@ -27,58 +27,68 @@ mixpanel.init("eda12707ac21a546ec9b06f61ddead51");</script><!-- end Mixpanel -->
       <img src="img/logo-white.svg" alt="logo" class="c-image c-image--logo">
       
       <div class="u-mt-lg">
-        <p class="u-txs-md u-txc-white">Start building your travel application instantly!</p>
+        <p class="u-txs-md u-txc-white u-txw-600">Start building your travel application instantly!</p>
+      </div>
+      
+      <div class="u-mt-sm">
+        <p class="u-txs-nm u-txc-white">Introducing YepJet, the simplest flight booking API</p>
       </div>
 
-      <div class="c-code-box u-txa-left u-mt-md">
-        <div class="c-code-box__menu u-txc-white">
-          <ul class="o-list--naked c-examples-list">
-            <li class="c-examples-list__item active"> <a data-tab="#code-search" href="#">1. Search</a> </li>
-            <li class="c-examples-list__item"> <a data-tab="#code-order" href="#">2. Create an order</a> </li>
-            <li class="c-examples-list__item"> <a data-tab="#code-book" href="#">3. Book</a> </li>
-          </ul>
-        </div>
-        <div class="c-code-box__code u-p-nm">
-          <pre class="u-txlh-0">
-            <!-- Search -->
-            <code class="tabs-pane active language-bash" id="code-search"># Try it yourself! Search a flight from London to New York
-curl -X POST \
-     -H 'Content-Type: application/json' \
-     -d '{
-           "flights": [{ 
-             "from": "LHR",
-             "to"  : "JFK",
-             "departure": "2016-01-01"
-           }],
-           "passengers": [{ "category": "ADT" }]
-         }' \
-     https://sandbox.yepjet.com/v1/search</code>
-          
-            <!-- Create an order -->
-            <code id="code-order" class="tabs-pane language-bash"># Now, let's create an order using a flight ID 
-curl -X POST \
-     -H 'Content-Type: application/json' \
-     -d '{
-           "flights": [{ 
-             "id": "c0ac3216-d3ce-42dc-906d-dd2029da6fa8"
-           }]
-         }' \
-     https://sandbox.yepjet.com/v1/orders
-            </code>
-            <!-- Book -->
-            <code id="code-book" class="tabs-pane language-bash"># Finalize the booking! Enjoy your flight.
-curl -X POST \
-     -H 'Content-Type: application/json' \
-     -d '{
-           "order_id": "fb59f76b-cc64-4a52-b91e-6029298ee10f",
-           "travelers": [{
-             "id": "11efaf6f-ae0a-478e-bd64-6c974d5a3f14"
-           }],
-           "payment_token": "0e7fbee2-51be-4b58-a797-f4fcd0a14621"
-         }' \
-     https://sandbox.yepjet.com/v1/bookings
-            </code>
-          </pre>
+      <div class="c-code-box u-txa-left u-mt-nm">
+        <ul class="c-code-box__header">
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+        
+        <div class="c-code-box__content">
+          <div class="c-code-box__content__menu u-txc-white">
+            <ul class="o-list--naked c-examples-list">
+              <li class="c-examples-list__item active"> <a data-tab="#code-search" href="#">1. Search</a> </li>
+              <li class="c-examples-list__item"> <a data-tab="#code-order" href="#">2. Create an order</a> </li>
+              <li class="c-examples-list__item"> <a data-tab="#code-book" href="#">3. Book</a> </li>
+            </ul>
+          </div>
+          <div class="c-code-box__content__code u-p-nm">
+            <pre class="u-txlh-0">
+              <!-- Search -->
+              <code class="tabs-pane active language-bash" id="code-search"># Try it yourself! Search a flight from London to New York
+  curl -X POST \
+       -H 'Content-Type: application/json' \
+       -d '{
+             "flights": [{ 
+               "from": "LHR",
+               "to"  : "JFK",
+               "departure": "2016-01-01"
+             }],
+             "passengers": [{ "category": "ADT" }]
+           }' \
+       https://sandbox.yepjet.com/v1/search</code>
+            
+              <!-- Create an order -->
+              <code id="code-order" class="tabs-pane language-bash"># Now, let's create an order using a flight ID 
+  curl -X POST \
+       -H 'Content-Type: application/json' \
+       -d '{
+             "flights": [{ 
+               "id": "c0ac3216-d3ce-42dc-906d-dd2029da6fa8"
+             }]
+           }' \
+       https://sandbox.yepjet.com/v1/orders</code>
+              <!-- Book -->
+              <code id="code-book" class="tabs-pane language-bash"># Finalize the booking! Enjoy your flight.
+  curl -X POST \
+       -H 'Content-Type: application/json' \
+       -d '{
+             "order_id": "fb59f76b-cc64-4a52-b91e-6029298ee10f",
+             "travelers": [{
+               "id": "11efaf6f-ae0a-478e-bd64-6c974d5a3f14"
+             }],
+             "payment_token": "0e7fbee2-51be-4b58-a797-f4fcd0a14621"
+           }' \
+       https://sandbox.yepjet.com/v1/bookings</code>
+            </pre>
+          </div>
         </div>
       </div>
     </div>
