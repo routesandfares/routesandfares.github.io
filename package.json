@@ -13,6 +13,7 @@
     "gulp": "*",
     "gulp-webserver": "*",
     "gulp-uglify": "*",
+    "gulp-concat": "*",
     "gulp-rename": "*",
     "gulp-postcss": "*",
     "postcss-cssnext": "*",
