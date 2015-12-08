@@ -2,6 +2,7 @@
 @import "_settings.sizes.css";
 @import "_settings.colors.css";
 @import "_settings.breakpoints.css";
+@import "_settings.homepage.css"; /* Landing page */
 
 @import "_generic.normalize.css";
 @import "_generic.prism-lang.css";
