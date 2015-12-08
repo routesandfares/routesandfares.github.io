@@ -55,7 +55,7 @@
 
       .c-console-s:before {
         content: '$';
-        opacity: .5;
+        color: #708090;
       }
 
     .c-code-box > 
