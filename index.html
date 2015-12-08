@@ -53,9 +53,8 @@ mixpanel.init("eda12707ac21a546ec9b06f61ddead51");</script><!-- end Mixpanel -->
           </div>
           <div class="c-code-box__content__code">
             <!-- Search -->
-            <pre class="u-txlh-0 tabs-pane active" id="code-search">
-              <code class="language-bash u-tx-nselect"># Try it yourself! Search a flight from London to New York</code>
-              <code class="language-bash c-console-s"> curl -X POST \
+            <pre class="u-txlh-0 tabs-pane active" id="code-search"><code class="language-bash u-tx-nselect"># Try it yourself! Search a flight from London to New York</code>
+<code class="language-bash c-console-s"> curl -X POST \
        -H 'Content-Type: application/json' \
        -d '{
              "flights": [{ 
@@ -65,26 +64,22 @@ mixpanel.init("eda12707ac21a546ec9b06f61ddead51");</script><!-- end Mixpanel -->
              }],
              "passengers": [{ "category": "ADT" }]
            }' \
-       https://sandbox.yepjet.com/v1/search</code>  
-            </pre>
+       https://sandbox.yepjet.com/v1/search</code></pre>
             
             <!-- Create an order -->
-            <pre class="u-txlh-0 tabs-pane" id="code-order">
-              <code class="language-bash u-tx-nselect"># Now, let's create an order using a flight ID</code>
-              <code class="language-bash c-console-s"> curl -X POST \
+            <pre class="u-txlh-0 tabs-pane" id="code-order"><code class="language-bash u-tx-nselect"># Now, let's create an order using a flight ID</code>
+<code class="language-bash c-console-s"> curl -X POST \
        -H 'Content-Type: application/json' \
        -d '{
              "flights": [{ 
                "id": "c0ac3216-d3ce-42dc-906d-dd2029da6fa8"
              }]
            }' \
-       https://sandbox.yepjet.com/v1/orders</code>
-            </pre>
+       https://sandbox.yepjet.com/v1/orders</code></pre>
             
             <!-- book -->
-            <pre class="u-txlh-0 tabs-pane" id="code-book">
-              <code class="language-bash u-tx-nselect"># Finalize the booking! Enjoy your flight.</code>
-              <code class="language-bash c-console-s"> curl -X POST \
+            <pre class="u-txlh-0 tabs-pane" id="code-book"><code class="language-bash u-tx-nselect"># Finalize the booking! Enjoy your flight.</code>
+<code class="language-bash c-console-s"> curl -X POST \
        -H 'Content-Type: application/json' \
        -d '{
              "order_id": "fb59f76b-cc64-4a52-b91e-6029298ee10f",
@@ -93,8 +88,7 @@ mixpanel.init("eda12707ac21a546ec9b06f61ddead51");</script><!-- end Mixpanel -->
              }],
              "payment_token": "0e7fbee2-51be-4b58-a797-f4fcd0a14621"
            }' \
-       https://sandbox.yepjet.com/v1/bookings</code>
-            </pre>
+       https://sandbox.yepjet.com/v1/bookings</code></pre>
           </div>
         </div>
       </div>

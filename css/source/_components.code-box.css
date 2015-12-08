@@ -100,8 +100,17 @@
     border-radius: 0px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+  }
 
+}
+
+@media (--media-md) {
+
+  .c-code-box > 
+  .c-code-box__content >
+  .c-code-box__content__code {
     font-size: 90%;
   }
+
 
 }
