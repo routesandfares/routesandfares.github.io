@@ -235,14 +235,17 @@ mixpanel.init("eda12707ac21a546ec9b06f61ddead51");</script><!-- end Mixpanel -->
   });
 
   var happyScrollEvent = function() {
-    var currentPos = (document.body.scrollTop || document.documentElement.scrollTop) + (window.innerHeight / 2);
+    var currentPos = (document.body.scrollTop || document.documentElement.scrollTop) + window.innerHeight;
     console.dir(window.innerHeight);
+
+    // A delay for the event (in px)
+    var offset = 200;
 
     sections.forEach(function(el, i) {
       if(hasClass(el.node, 'js-section-visible'))
         return;
 
-      if(currentPos < el.top)
+      if(currentPos < (el.top + offset))
         return;
 
       el.node.style.opacity = 1;
