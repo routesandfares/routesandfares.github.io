@@ -16,7 +16,7 @@ eml.addEventListener('keydown', function() {
   btn.setAttribute('disabled', 'true');
 });
 
-btn.addEventListener('click', function() {
+var formSubmitEvent = function() {
   var email = eml.value.trim();
 
   if (!isValidEmail(email)) {
@@ -42,4 +42,11 @@ btn.addEventListener('click', function() {
   };
 
   request.send(params);
-});
+};
+
+
+btn.addEventListener('click', formSubmitEvent);
+eml.onkeyup = function(e) {
+  if(e.key == 'Enter')
+    formSubmitEvent();
+}
