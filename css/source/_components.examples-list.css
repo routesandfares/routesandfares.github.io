@@ -28,6 +28,7 @@
 
   .c-examples-list > .c-examples-list__item:first-child > a {
     border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
   }
 
 }
