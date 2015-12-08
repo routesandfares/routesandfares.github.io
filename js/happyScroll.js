@@ -20,7 +20,6 @@ var sections = [];
   var nEl = element;
 
   while(nEl != null) {
-    console.log(i + '> ' + nEl.offsetTop);
     offsetTop += nEl.offsetTop;
     nEl = nEl.offsetParent;
   }

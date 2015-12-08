@@ -40,13 +40,13 @@ var formSubmitEvent = function() {
     else
       document.querySelector('.js-signup-error').style.display = 'block';
   };
-
+  
   request.send(params);
 };
 
 
 btn.addEventListener('click', formSubmitEvent);
-eml.onkeyup = function(e) {
-  if(e.key == 'Enter')
+eml.onkeydown = function(e) {
+  if(e.keyCode == 13)
     formSubmitEvent();
 }
