@@ -7,15 +7,18 @@
     
     box-shadow: 0 1px 0 color( var(--color-purple) alpha(50%) );
 
-    color: var(--color-white);
+    color: color( var(--color-white) alpha(40%) );
     text-decoration: none; 
     font-weight: 600;
     font-size: var(--font-nm);
     text-transform: uppercase;
+
+    transition: none;
   }
 
   .c-examples-list > .c-examples-list__item.active > a {
     box-shadow: none;
+    color: var(--color-white);
     background-color: var(--color-purple);
   }
 
