@@ -4,6 +4,7 @@
 .u-mt-lg { margin-top: var(--space-lg); }
 .u-mt-xl { margin-top: var(--space-xl); }
 
+.u-mb-xs { margin-bottom: var(--space-xs); }
 .u-mb-nm { margin-bottom: var(--space-nm); }
 .u-mb-md { margin-bottom: var(--space-md); }
 
